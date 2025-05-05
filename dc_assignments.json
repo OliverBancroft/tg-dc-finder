@@ -1,0 +1,423 @@
+{
+  "dc_assignments": {
+    "Singapore": [
+      {
+        "subnet": "149.154.170.0/24",
+        "latencies": {
+          "Amsterdam": 162.926,
+          "Singapore": 0.719,
+          "Miami": 219.898
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.171.0/24",
+        "latencies": {
+          "Amsterdam": 162.485,
+          "Singapore": 0.806,
+          "Miami": 218.039
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.16.0/24",
+        "latencies": {
+          "Amsterdam": 156.081,
+          "Singapore": 0.837,
+          "Miami": 218.023
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.17.0/24",
+        "latencies": {
+          "Amsterdam": 157.228,
+          "Singapore": 0.688,
+          "Miami": 217.743
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.56.0/24",
+        "latencies": {
+          "Amsterdam": 162.409,
+          "Singapore": 1.028,
+          "Miami": 218.046
+        },
+        "confidence": "high"
+      }
+    ],
+    "Miami": [
+      {
+        "subnet": "149.154.172.0/24",
+        "latencies": {
+          "Amsterdam": 91.809,
+          "Singapore": 242.37,
+          "Miami": 0.421
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.173.0/24",
+        "latencies": {
+          "Amsterdam": 114.57,
+          "Singapore": 243.978,
+          "Miami": 0.733
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.174.0/24",
+        "latencies": {
+          "Amsterdam": 115.368,
+          "Singapore": 226.113,
+          "Miami": 0.55
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.175.0/24",
+        "latencies": {
+          "Amsterdam": 114.223,
+          "Singapore": 226.292,
+          "Miami": 0.423
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.12.0/24",
+        "latencies": {
+          "Amsterdam": 114.304,
+          "Singapore": 243.799,
+          "Miami": 0.48
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.13.0/24",
+        "latencies": {
+          "Amsterdam": 114.161,
+          "Singapore": 226.239,
+          "Miami": 0.379
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.14.0/24",
+        "latencies": {
+          "Amsterdam": 91.676,
+          "Singapore": 222.86,
+          "Miami": 0.419
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.15.0/24",
+        "latencies": {
+          "Amsterdam": 91.722,
+          "Singapore": 223.03,
+          "Miami": 0.47
+        },
+        "confidence": "high"
+      }
+    ],
+    "Amsterdam": [
+      {
+        "subnet": "149.154.160.0/24",
+        "latencies": {
+          "Amsterdam": 0.873,
+          "Singapore": 151.04,
+          "Miami": 120.11
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.161.0/24",
+        "latencies": {
+          "Amsterdam": 6.611,
+          "Singapore": 153.858,
+          "Miami": 115.263
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.162.0/24",
+        "latencies": {
+          "Amsterdam": 1.432,
+          "Singapore": 152.667,
+          "Miami": 115.166
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.163.0/24",
+        "latencies": {
+          "Amsterdam": 3.221,
+          "Singapore": 151.35,
+          "Miami": 110.57
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.164.0/24",
+        "latencies": {
+          "Amsterdam": 8.371,
+          "Singapore": 151.559,
+          "Miami": 113.196
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.165.0/24",
+        "latencies": {
+          "Amsterdam": 4.021,
+          "Singapore": 151.375,
+          "Miami": 115.89
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.166.0/24",
+        "latencies": {
+          "Amsterdam": 1.259,
+          "Singapore": 152.519,
+          "Miami": 108.525
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "149.154.167.0/24",
+        "latencies": {
+          "Amsterdam": 1.047,
+          "Singapore": 151.357,
+          "Miami": 112.998
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.10.0/24",
+        "latencies": {
+          "Amsterdam": 1.191,
+          "Singapore": 151.06,
+          "Miami": 113.44
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.11.0/24",
+        "latencies": {
+          "Amsterdam": 0.988,
+          "Singapore": 151.8,
+          "Miami": 113.46
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.4.0/24",
+        "latencies": {
+          "Amsterdam": 0.709,
+          "Singapore": 151.309,
+          "Miami": 114.85
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.5.0/24",
+        "latencies": {
+          "Amsterdam": 1.218,
+          "Singapore": 152.69,
+          "Miami": 114.798
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.58.0/24",
+        "latencies": {
+          "Amsterdam": 6.865,
+          "Singapore": 154.98,
+          "Miami": 109.25
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.59.0/24",
+        "latencies": {
+          "Amsterdam": 1.989,
+          "Singapore": 155.1,
+          "Miami": 105.25
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.6.0/24",
+        "latencies": {
+          "Amsterdam": 0.773,
+          "Singapore": 151.02,
+          "Miami": 108.98
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.7.0/24",
+        "latencies": {
+          "Amsterdam": 7.159,
+          "Singapore": 151.16,
+          "Miami": 119.582
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.8.0/24",
+        "latencies": {
+          "Amsterdam": 10.37,
+          "Singapore": 151.06,
+          "Miami": 114.642
+        },
+        "confidence": "high"
+      },
+      {
+        "subnet": "91.108.9.0/24",
+        "latencies": {
+          "Amsterdam": 1.274,
+          "Singapore": 151.227,
+          "Miami": 113.635
+        },
+        "confidence": "high"
+      }
+    ],
+    "Undefined": [
+      {
+        "subnet": "149.154.168.0/24",
+        "latencies": {
+          "Amsterdam": 163.6,
+          "Singapore": 0.592,
+          "Miami": 0.58
+        },
+        "possible_dcs": [
+          "Miami",
+          "Singapore"
+        ]
+      },
+      {
+        "subnet": "149.154.169.0/24",
+        "latencies": {
+          "Amsterdam": 162.09,
+          "Singapore": 0.666,
+          "Miami": 0.64
+        },
+        "possible_dcs": [
+          "Miami",
+          "Singapore"
+        ]
+      },
+      {
+        "subnet": "185.76.151.0/24",
+        "latencies": {
+          "Amsterdam": 30.63,
+          "Singapore": 196.158,
+          "Miami": 134.03
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.105.192.0/24",
+        "latencies": {
+          "Amsterdam": 29.811,
+          "Singapore": 194.915,
+          "Miami": 134.711
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.105.193.0/24",
+        "latencies": {
+          "Amsterdam": 29.558,
+          "Singapore": 147.88,
+          "Miami": 134.1
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.108.18.0/24",
+        "latencies": {
+          "Amsterdam": 162.45,
+          "Singapore": 0.385,
+          "Miami": 6.421
+        },
+        "possible_dcs": [
+          "Miami",
+          "Singapore"
+        ]
+      },
+      {
+        "subnet": "91.108.19.0/24",
+        "latencies": {
+          "Amsterdam": 162.14,
+          "Singapore": 0.364,
+          "Miami": 0.665
+        },
+        "possible_dcs": [
+          "Miami",
+          "Singapore"
+        ]
+      },
+      {
+        "subnet": "91.108.20.0/24",
+        "latencies": {
+          "Amsterdam": 118.834,
+          "Singapore": 53.007,
+          "Miami": 295.84
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.108.21.0/24",
+        "latencies": {
+          "Amsterdam": 116.794,
+          "Singapore": 54.144,
+          "Miami": 296.661
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.108.22.0/24",
+        "latencies": {
+          "Amsterdam": 269.92,
+          "Singapore": 163.15,
+          "Miami": 249.53
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.108.23.0/24",
+        "latencies": {
+          "Amsterdam": 251.931,
+          "Singapore": 74.272,
+          "Miami": 271.53
+        },
+        "possible_dcs": null
+      },
+      {
+        "subnet": "91.108.57.0/24",
+        "latencies": {
+          "Amsterdam": 162.72,
+          "Singapore": 0.321,
+          "Miami": 0.681
+        },
+        "possible_dcs": [
+          "Miami",
+          "Singapore"
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "total_subnets": 43,
+    "assigned_subnets": 31,
+    "undefined_subnets": 12,
+    "confidence_levels": {
+      "high": 31,
+      "unknown": 12
+    }
+  }
+}
