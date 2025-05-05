@@ -5,6 +5,9 @@ on:
     # UTC+8 每周五 6:00 = UTC 每周四 22:00
     - cron: "0 22 * * 4"
   workflow_dispatch: # 允许手动触发
+  push:
+    tags:
+      - "v*" # 当推送 v 开头的 tag 时触发
 
 # 添加必要的权限
 permissions:
@@ -36,6 +39,19 @@ jobs:
           cfsecret: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
         run: python main.py
 
+      - name: Get current date
+        id: date
+        run: echo "date=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
+
+      - name: Create tag if not exists
+        if: github.event_name != 'push'
+        run: |
+          TAG="v${{ steps.date.outputs.date }}"
+          if ! git rev-parse --verify "refs/tags/$TAG" >/dev/null 2>&1; then
+            git tag "$TAG"
+            git push origin "$TAG"
+          fi
+
       - name: Create Release
         id: create_release
         uses: softprops/action-gh-release@v1
@@ -45,8 +61,8 @@ jobs:
             telegramUS.conf
             telegramEU.conf
             dc_assignments.json
-          tag_name: v$(date +'%Y.%m.%d')
-          name: Telegram DC Configs $(date +'%Y-%m-%d')
+          tag_name: ${{ github.event_name == 'push' && github.ref_name || format('v{0}', steps.date.outputs.date) }}
+          name: Telegram DC Configs ${{ github.event_name == 'push' && github.ref_name || format('v{0}', steps.date.outputs.date) }}
           body: |
             Telegram DC configuration files generated on $(date +'%Y-%m-%d %H:%M:%S UTC+8')
 
