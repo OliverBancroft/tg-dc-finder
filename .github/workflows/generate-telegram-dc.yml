@@ -6,12 +6,19 @@ on:
     - cron: "0 22 * * 4"
   workflow_dispatch: # 允许手动触发
 
+# 添加必要的权限
+permissions:
+  contents: write # 允许创建和修改 releases
+  packages: write # 允许上传文件
+
 jobs:
   generate-configs:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 获取完整的 git 历史
 
       - name: Set up Python
         uses: actions/setup-python@v5
