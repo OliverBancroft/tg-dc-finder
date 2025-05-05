@@ -84,3 +84,26 @@ jobs:
           git tag latest
           # 推送 latest tag
           git push origin latest
+
+      - name: Create Latest Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            telegramSG.conf
+            telegramUS.conf
+            telegramEU.conf
+            dc_assignments.json
+          tag_name: latest
+          name: Latest Telegram DC Configs
+          body: |
+            Latest Telegram DC configuration files (Updated on $(date +'%Y-%m-%d %H:%M:%S UTC+8'))
+
+            Files included:
+            - telegramSG.conf (Singapore DC)
+            - telegramUS.conf (Miami DC)
+            - telegramEU.conf (Amsterdam DC)
+            - dc_assignments.json (Detailed analysis)
+
+            This is the latest version of the configuration files. For version history, please check other releases.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
