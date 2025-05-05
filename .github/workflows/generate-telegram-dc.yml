@@ -73,3 +73,14 @@ jobs:
             - dc_assignments.json (Detailed analysis)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update latest tag
+        run: |
+          # 删除本地的 latest tag（如果存在）
+          git tag -d latest || true
+          # 删除远程的 latest tag（如果存在）
+          git push origin :refs/tags/latest || true
+          # 创建新的 latest tag
+          git tag latest
+          # 推送 latest tag
+          git push origin latest
